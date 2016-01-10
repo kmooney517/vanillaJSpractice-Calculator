@@ -1,0 +1,41 @@
+// Put any @imports here
+// See Readme for a list of supported ones
+
+body {
+  background: #e2ebf3;
+}
+
+.calc{
+  width: 500px;
+  margin: 20px auto;
+}
+
+.box{
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding-top: 3px;
+}
+
+.row{
+  display: block;
+  div{
+    display: inline-block;
+  }
+}
+
+.row1{
+  width: 179px;
+  height: 40px;
+  border: 1px solid black;
+  text-align: right;
+  padding-top: 10px;
+}
+
+.clearButton{
+  color: blue;
+  width: 179px;
+  border: 1px solid black;
+  text-align: center;
+}
